@@ -5,7 +5,7 @@ export type CityType = {
     citizensNumber: number
 }
 
-type GovBuildingsType = {
+export type GovBuildingsType = {
     type: string;
     budget: number;
     staffCount: number;
