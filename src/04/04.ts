@@ -5,11 +5,9 @@
     {title: "REACT", price: 150}
 ]*/
 
-export const predicate = (age: number) => {
-    return age > 90
-}
+export const predicate = (age: number) => age > 90
 
-type CourseType = {
+export type CourseType = {
     title: string,
     price: number
 }
