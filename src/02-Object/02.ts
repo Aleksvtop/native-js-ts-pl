@@ -127,3 +127,4 @@ const car: CarType = {
 
 console.log(car.isNew)
 console.log(car.options[2].value)
+
